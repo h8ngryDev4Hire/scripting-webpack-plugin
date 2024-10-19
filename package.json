@@ -1,0 +1,17 @@
+{
+  "name": "scripting-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Integrate script running in tandem with your Webpack build process!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/webpack": "^5.28.5",
+    "typescript": "^5.6.3",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
