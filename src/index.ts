@@ -1,5 +1,5 @@
 import { ScriptingWebpackPluginOptions, PluginExecutionOptions, Scriptlet, ScriptSet, ScriptRunOptions, Shell } from './definitions'
-import { Compilation, Compiler, WebpackError, WebpackPluginInstance } from "webpack";
+import  { Compilation, Compiler, WebpackError, WebpackPluginInstance } from "webpack";
 import { exec, spawn, ExecException } from 'child_process'
 import { promisify } from 'util'
 

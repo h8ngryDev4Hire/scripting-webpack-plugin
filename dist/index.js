@@ -132,4 +132,3 @@ class ScriptingWebpackPlugin {
     }
 }
 module.exports = ScriptingWebpackPlugin;
-//# sourceMappingURL=index.js.map

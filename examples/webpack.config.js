@@ -4,7 +4,7 @@ const ScriptingWebpackPlugin = require('./dist/index.js')
 module.exports = {
 	mode: 'development',
 	entry: {
-    		entry: path.resolve(__dirname, 'tests', 'test.js'),
+    		entry: path.resolve(__dirname, 'test.js'),
 
 	},
 	plugins: [
@@ -12,11 +12,11 @@ module.exports = {
 			scripts: {
 				onShouldEmit: [{
 					shell: 'python',
-					script: './tests/scripts/script.py'
+					script: './scripts/script.py'
 				}],
 				onAfterEmit: [{
 					shell: 'node',
-					script: './tests/scripts/script.js'	
+					script: './scripts/script.js'	
 				}]
 			},
 			shell: 'zsh',
@@ -27,7 +27,7 @@ module.exports = {
     		filename: '[name].pack.js',
     		publicPath: '/',
     		clean: true,
-		path: path.resolve(__dirname, 'tests', 'webpack')
+		path: path.resolve(__dirname, 'dev')
   	},
   	module: {
     		rules: [{
