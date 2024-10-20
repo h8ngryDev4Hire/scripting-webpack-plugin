@@ -11,11 +11,11 @@ A simple webpack extension built in Typescript for running scripts during the em
 
 ## Features
 
-###Scripting Language Support: 
+### Scripting Language Support: 
 
 Supports running bash / python / js script files! simply declare what shell to execute your script in!
 
-###Event-based Execution
+### Event-based Execution
 
 Supports running scripts based on different compiler hook events. Currently support compiler hooks are as follows:
 
