@@ -43,6 +43,12 @@ const ScriptingWebpackPlugin = require('scripting-webpack-plugin')
 A simple ScriptingWebpackPlugin configuration looks like the following: 
 
 ```javascript
+const ScriptingWebpackPlugin = require('scripting-webpack-plugin')
+
+// ...
+// Your Webpack Configuration...
+// ...
+
     plugins: [
         new ScriptingWebpackPlugin({
             scripts: {
