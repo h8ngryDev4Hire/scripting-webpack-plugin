@@ -1,6 +1,6 @@
 # Scripting Webpack Plugin
 
-A simple webpack extension for running scripts during the emission phase in the compilation process. 
+A simple webpack extension built in Typescript for running scripts during the emission phase in Webpack's compilation process. 
 
 - [Features](#features)
 - [Installation](#installation)
@@ -74,7 +74,7 @@ you can refer to the example `webpack.config.js` build file for more help!
 
 ## Contributing
 
-We welcome contributions to Notate! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+We welcome contributions to the project! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
