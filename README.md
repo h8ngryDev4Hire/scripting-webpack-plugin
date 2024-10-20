@@ -2,7 +2,6 @@
 
 A simple webpack extension for running scripts during the emission phase in the compilation process. 
 
-
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,17 +10,33 @@ A simple webpack extension for running scripts during the emission phase in the 
 
 
 ## Features
+
 ###Scripting Language Support: 
+
 Supports running bash / python / js script files! simply declare what shell to execute your script in!
 
 ###Event-based Execution
+
 Supports running scripts based on different compiler hook events. Currently support compiler hooks are as follows:
 
 - onShouldEmit (`compiler.hooks.shouldEmit`)
 - onEmit (`compiler.hooks.emit`)
 - onAfterEmit (`compiler.hooks.afterEmit`)
 
+
 ## Installation
+
+install via npm with the following cmd string:
+
+```bash
+npm i -D scripting-webpack-plugin
+```
+
+begin using in your `webpack.config.js` file as so:
+
+```javascript
+const ScriptingWebpackPlugin = require('scripting-webpack-plugin')
+```
 
 
 ## Usage
