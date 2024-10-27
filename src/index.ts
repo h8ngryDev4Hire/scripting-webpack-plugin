@@ -72,7 +72,7 @@ class ScriptingWebpackPlugin implements WebpackPluginInstance {
 			} 
 
 			if (this?.verbose || scriptlet?.verbose) {
-				console.log(`executing following command string: ${cmd}`)
+				console.log(`executing following command string: "${cmd}"`)
 			}
 			 			
 			exec(cmd, (
@@ -98,8 +98,8 @@ class ScriptingWebpackPlugin implements WebpackPluginInstance {
 				if (stderr) {
 					if (this.bailOnScriptStderr) {
 						throw new WebpackError(`
-							Scripts: scriptlet ${scriptlet.script} 
-							stopped at following error msg: \n stderr`)
+							Scripts: scriptlet "${scriptlet.script}" 
+							stopped at following error msg: \n ${stderr}`)
 					}
 					console.error(stderr)
 				} 

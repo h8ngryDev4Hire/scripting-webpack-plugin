@@ -26,7 +26,9 @@ Supports running scripts based on different compiler hook events. Currently supp
 
 ## Installation
 
-install via npm with the following cmd string:
+### NPM Download 
+
+To install from npm, run the following cmds:
 
 ```bash
 npm i -D scripting-webpack-plugin
@@ -37,6 +39,13 @@ begin using in your `webpack.config.js` file as so:
 ```javascript
 const ScriptingWebpackPlugin = require('scripting-webpack-plugin')
 ```
+
+### Github Download
+
+To install from github, run the following cmds:
+
+```bash
+git clone 
 
 
 ## Usage

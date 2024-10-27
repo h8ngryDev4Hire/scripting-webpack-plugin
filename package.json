@@ -1,18 +1,23 @@
 {
   "name": "scripting-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Integrate script running in tandem with your Webpack build process!",
   "main": "dist/index.js",
   "types": "./types/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "h8ngryDev4Hire",
+  "license": "MIT",
   "devDependencies": {
     "@types/webpack": "^5.28.5",
     "typescript": "^5.6.3",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4"
+  },
+  "keywords": [ "webpack", "build", "scripting", "automation", "cicd", "ci/cd", "javascript", "devops", "build process" ],
+  "bugs": {
+	"email": "monkeydev4hire@proton.me",
+	"url": "https://github.com/h8ngryDev4Hire/scripting-webpack-plugin/issues"
   }
 }

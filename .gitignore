@@ -3,3 +3,6 @@ node_modules/
 
 # dist folder
 dist/
+
+# webpack build folder
+*/dev/
