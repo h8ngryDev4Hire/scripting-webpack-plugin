@@ -46,7 +46,19 @@ To install from github, run the following cmds:
 
 ```bash
 git clone 
+```
 
+Then install the dependencies:
+
+```bash
+npm i
+```
+
+You can now compile your Typescript files by using:
+
+```bash
+tsc
+```
 
 ## Usage
 A simple ScriptingWebpackPlugin configuration looks like the following: 
